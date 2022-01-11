@@ -1,9 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import {NgxSpinnerModule} from "ngx-spinner";
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [
+        NgxSpinnerModule
+      ],
       declarations: [
         AppComponent
       ],
